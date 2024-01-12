@@ -7,7 +7,7 @@
 .background {
     height: auto;
     width: 1000px;
-    background-image: "blue.avif";
+    background-image: url("../images/blue.avif");
     background-size: cover;
     background-position: center;
 }
