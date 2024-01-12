@@ -7,7 +7,7 @@
 .background {
     height: 100vh;
     width: 100%;
-    background-image: url(../img/blue.avif);
+    background-image: radial-gradient(black 70%, blue 30%);
     background-size: cover;
     background-position: center;
 }
