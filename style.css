@@ -4,12 +4,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.background img {
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
 nav{
     display: flex;
     align-items: center;
