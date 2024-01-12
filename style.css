@@ -172,3 +172,9 @@ footer p:nth-child(2){
     text-decoration: none;
     background-color: rgb(64, 0, 255)
 }
+#bg {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
