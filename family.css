@@ -1,0 +1,231 @@
+*{
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/blue2.avif);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+}
+nav ul li a:hover{
+    background-color: rgb(64, 0, 255);
+    border-radius: 30px;
+    transform: scale(1.2);
+    transition: .2s;
+}
+span{
+    color: rgb(0, 76, 255);
+}
+#two{
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: rgb(64, 0, 255)
+}
+.trext h2{
+    color: white;
+    font-size: 65px;
+    width: 1130px;
+    margin: 45px auto;
+    text-align: center;
+}
+.cube{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    margin-left: 485px;
+    margin-top: -25px;
+    width: 560px;
+    height: auto;
+}
+.cube img{
+    width: 550px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.famtitle{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.partwo {
+    width: 100%;
+    padding: 100px 0px;
+    color: white;
+    background-color: #050037;
+}
+.partwo img{
+    height: auto;
+    width: 450px;
+}
+.meyn {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.parentitle {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.brother {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.parents {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    height: auto;
+}
+.broski {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    height: auto;
+}
+.parents img {
+    width: 450px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.broski img{
+    width: 450px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.mine {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.three {
+    width: 100%;
+    padding: 100px 0px;
+    color: white;
+    background-color: #000000;
+}
+.threetle h2 {
+    color: white;
+    font-size: 65px;
+    width: 1130px;
+    margin: 45px auto;
+    text-align: center;
+}
+.ppr {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: auto;
+}
+.ppr img {
+    width: 260px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.gnr {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: auto;
+}
+.gnr img {
+    width: 390px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.peppername {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.gingername {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.ppr p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: -10px;
+}
+.gnr p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: -10px;
+}
+ 
